@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import Image from 'next/image';
 
-const Avatar = ({ url }) => {
+const Avatar = ({ url, className }) => {
 	return (
 		<>
 			{/* <Image
@@ -13,7 +13,7 @@ const Avatar = ({ url }) => {
 			alt='profile pic'
 		/> */}
 			<img
-				className=' h-10 rounded-full cursor-pointer transition duration-150 transform hover:scale-110'
+				className={` h-10 rounded-full cursor-pointer transition duration-150 transform hover:scale-110 ${className}`}
 				src={url}
 				loading='lazy'
 				alt='profile pic'
