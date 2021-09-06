@@ -14,11 +14,11 @@ const HeaderOptions = () => {
 		<div
 			className='flex w-full text-gray-700 justify-evenly text-sm
     lg:text-base lg:justify-start lg:space-x-36 lg:pl-52
-    border-b-[1px]'
+    border-b'
 		>
 			<div className='flex space-x-6'>
 				<HeaderOption Icon={SearchIcon} title='Tout' selected />
-				<HeaderOption Icon={PhotographIcon} title='Photos' />
+				<HeaderOption Icon={PhotographIcon} title='Images' />
 				<HeaderOption Icon={PlayIcon} title='Vidéos' />
 				<HeaderOption Icon={NewspaperIcon} title='Actualité' />
 				<HeaderOption Icon={MapIcon} title='Maps' />
