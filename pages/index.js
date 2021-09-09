@@ -48,7 +48,7 @@ export default function Home() {
 			</header>
 			{/* body */}
 
-			<form action='' className='flex flex-col items-center mt-[7%] flex-grow'>
+			<form action='' className='flex flex-col items-center mt-44 flex-grow'>
 				<Image
 					src='/googlelogo.png'
 					alt='google logo'
@@ -75,10 +75,10 @@ export default function Home() {
 				 sm:flex-row sm:space-x-4'
 				>
 					<button className='btn' onClick={search}>
-						Google Search
+						Recherche Google
 					</button>
 
-					<button className='btn'> I'm feeling lucky</button>
+					<button className='btn'> J'ai de la chance</button>
 				</div>
 			</form>
 			{/* footer */}

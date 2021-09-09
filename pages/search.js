@@ -9,7 +9,7 @@ const Search = ({ results }) => {
 	return (
 		<div>
 			<Head>
-				<title>{router.query.term}- Google Search</title>
+				<title>{router.query.term}- Recherche Google</title>
 			</Head>
 
 			<Header />
