@@ -33,7 +33,7 @@ export default function Home() {
 			{/* header */}
 			<header className='flex p-5 justify-between text-sm text-gray-700'>
 				<div className='flex space-x-4 items-center'>
-					<p className='link'>About</p>
+					<p className='link'>A Propos</p>
 					<p className='link'>Store</p>
 				</div>
 
