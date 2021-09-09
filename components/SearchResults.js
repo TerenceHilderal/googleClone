@@ -1,7 +1,6 @@
 import PaginationButtons from './PaginationButtons';
 
 const SearchResults = ({ results }) => {
-	console.log(results);
 	return (
 		<div className='mx-auto w-full px-3 sm:pl-[5%] md:pl-[14%] lg:pl-52'>
 			<p className='text-gray-600 text-md mb-5 mt-3'>
@@ -11,7 +10,6 @@ const SearchResults = ({ results }) => {
 
 			{results.items?.map((result) => (
 				<div key={result.link} className='max-w-xl mb-8'>
-					{console.log(result)}
 					<div className='group'>
 						<a href={result.link} className='text-sml'>
 							{result.formattedUrl}

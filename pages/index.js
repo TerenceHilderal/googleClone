@@ -30,7 +30,6 @@ export default function Home() {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 
-			{/* header */}
 			<header className='flex p-5 justify-between text-sm text-gray-700'>
 				<div className='flex space-x-4 items-center'>
 					<p className='link'>A Propos</p>
@@ -46,7 +45,6 @@ export default function Home() {
 					<Avatar url='http://hilderal.terence.free.fr/Images/informaticien.jpg' />
 				</div>
 			</header>
-			{/* body */}
 
 			<form action='' className='flex flex-col items-center mt-44 flex-grow'>
 				<Image
@@ -81,7 +79,7 @@ export default function Home() {
 					<button className='btn'> J'ai de la chance</button>
 				</div>
 			</form>
-			{/* footer */}
+
 			<Footer />
 		</div>
 	);
