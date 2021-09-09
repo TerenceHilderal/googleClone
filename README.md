@@ -1,9 +1,9 @@
 ## About the project
 
-Slack Clone
+A realistic Google Clone
 
 - Deployed on firebase :
-  https://slack-clone-a6ced.web.app
+  https://google-clone-delta-one.vercel.app/
 
 # Stack
 
