@@ -48,13 +48,13 @@ export default function Home() {
 			</header>
 			{/* body */}
 
-			<form action='' className='flex flex-col items-center mt-40 flex-grow'>
+			<form action='' className='flex flex-col items-center mt-[7%] flex-grow'>
 				<Image
-					src='https://proofmart.com/wp-content/uploads/2021/06/google-logo-web.png'
+					src='/googlelogo.png'
 					alt='google logo'
 					quality='100'
 					width={300}
-					height={200}
+					height={100}
 				/>
 
 				<div
