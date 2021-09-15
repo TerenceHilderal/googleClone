@@ -15,7 +15,7 @@ const Footer = () => {
 				<div className='flex justify-center space-x-8 whitespace-nowrap md:justify-self-start'>
 					<p>A propos</p>
 					<p>Publicité</p>
-					<p>Comment fonctionne la recherche Google</p>
+					<p>Terencehdl</p>
 				</div>
 				<div className='flex justify-center space-x-8 whitespace-nowrap md:ml-auto'>
 					<p>Confidentialité</p>

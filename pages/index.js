@@ -16,7 +16,6 @@ export default function Home() {
 		e.preventDefault();
 
 		const term = searchInputRef.current.value;
-		console.log(term);
 
 		if (!term) return;
 		router.push(`/search?term=${term}`);
@@ -46,7 +45,7 @@ export default function Home() {
 				</div>
 			</header>
 
-			<form action='' className='flex flex-col items-center mt-44 flex-grow'>
+			<form action='' className='flex flex-col items-center mt-36 flex-grow'>
 				<Image
 					src='/googlelogo.png'
 					alt='google logo'
