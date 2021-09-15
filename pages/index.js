@@ -50,8 +50,8 @@ export default function Home() {
 					src='/googlelogo.png'
 					alt='google logo'
 					quality='100'
-					width={300}
-					height={100}
+					width={200}
+					height={60}
 				/>
 
 				<div
